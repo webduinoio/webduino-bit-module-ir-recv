@@ -1,6 +1,6 @@
 # webduino-bit-module-ir-recv
 
-Module for Webduino:bit IR Recv.
+Module for IR receiver of Webduino:bit.
 
 ## Installation
 
