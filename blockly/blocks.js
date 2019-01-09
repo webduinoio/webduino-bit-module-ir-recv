@@ -1,10 +1,10 @@
 var mainUrl = 'https://tutorials.webduino.io/zh-tw/docs/';
 var utmUrl = '?utm_source=cloud-blockly&utm_medium=contextMenu&utm_campaign=tutorials';
 
-Blockly.Blocks['irrecv_new'] = {
+Blockly.Blocks['irrecv_new_bit'] = {
   init: function () {
     this.appendDummyInput()
-      .appendField(Blockly.Msg.WEBDUINO_IRRECV, "紅外線接收，腳位：")
+      .appendField(Blockly.Msg.WEBDUINO_IRRECV_BIT, "紅外線接收，腳位：")
       .appendField(new Blockly.FieldDropdown([["1", "1"]]), "pin_");
     this.setOutput(true);
     this.setColour(230);

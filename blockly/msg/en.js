@@ -1,1 +1,1 @@
-catIRRecv = "IR Recv";
+MSG.catIRRecv_bit = "IR Recv";

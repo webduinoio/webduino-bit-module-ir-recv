@@ -1,8 +1,8 @@
-    <category id="catIRRecv"  index="8">
+    <category id="catIRRecv_bit"  index="8" tags="bit">
       <block type="variables_set">
         <field name="VAR">irrecv</field>
         <value name="VALUE">
-          <block type="irrecv_new">
+          <block type="irrecv_new_bit">
             <field name="pin_">1</field>
           </block>
         </value>

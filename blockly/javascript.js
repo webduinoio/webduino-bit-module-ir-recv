@@ -1,4 +1,4 @@
-Blockly.JavaScript['irrecv_new'] = function (block) {
+Blockly.JavaScript['irrecv_new_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getIRRecv(board, bitGPIO(' + dropdown_pin_ + '))';
   return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];

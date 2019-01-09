@@ -1,11 +1,11 @@
 {
   "types": [
-    "irrecv_new",
+    "irrecv_new_bit",
     "irrecv_on",
     "irrecv_val",
     "irrecv_off"
   ],
-  "category": "toolbox",
+  "category": "catMenu2",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"
