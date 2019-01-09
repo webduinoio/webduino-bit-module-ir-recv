@@ -1,1 +1,1 @@
-catIRRecv = "红外线接收";
+MSG.catIRRecv = "红外线接收";
